@@ -1,0 +1,24 @@
+/* Categorías */
+.categories_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em 0;
+}
+
+.categories_section h2 {
+  font-size: 1.3rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--primary-color);
+  color: transparent;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
