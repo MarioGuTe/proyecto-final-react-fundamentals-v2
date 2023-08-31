@@ -1,0 +1,14 @@
+.details_info_container {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0.4em;
+}
+
+.details_info_container p {
+  z-index: 1000;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: end;
+}
