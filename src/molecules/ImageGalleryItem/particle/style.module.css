@@ -13,3 +13,15 @@
   object-fit: cover;
   z-index: -1;
 }
+
+@media (min-width: 768px) {
+  .img_container {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img_container {
+    min-height: 580px;
+  }
+}

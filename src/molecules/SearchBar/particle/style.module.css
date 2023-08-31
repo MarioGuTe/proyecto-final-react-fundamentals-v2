@@ -32,3 +32,26 @@ input::placeholder {
 input:focus::placeholder {
   opacity: 0;
 }
+
+.container .icon {
+  position: absolute;
+  top: 14px;
+  left: 10%;
+  color: var(--third-color);
+}
+
+@media (min-width: 1024px) {
+  .container input {
+    width: 35%;
+    height: 50px;
+  }
+
+  input::placeholder {
+    font-size: 1.3rem;
+  }
+  .container .icon {
+    top: 1rem;
+    left: 34%;
+    font-size: 1.2rem;
+  }
+}

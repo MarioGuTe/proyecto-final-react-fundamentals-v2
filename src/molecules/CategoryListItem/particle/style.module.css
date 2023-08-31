@@ -20,3 +20,13 @@
   border: none;
   padding: 6px 10px;
 }
+
+@media (min-width: 1024px) {
+  .categorie_btn {
+    font-size: 1rem;
+    padding: 5px 1.8rem;
+  }
+  .categorie_btn:focus {
+    padding: 7px 1.8rem;
+  }
+}
