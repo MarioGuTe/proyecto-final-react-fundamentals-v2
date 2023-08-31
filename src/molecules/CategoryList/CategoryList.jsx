@@ -13,7 +13,7 @@ const CategoryList = ({ categoryList, onClickItem }) => {
                 <CategoryListItem
                   key={category.id}
                   category={category}
-                  onClick={onClickItem}
+                  onClickItem={onClickItem}
                 />
               );
             })
