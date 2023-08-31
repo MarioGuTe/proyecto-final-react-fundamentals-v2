@@ -1,0 +1,22 @@
+.categorie_btn {
+  font-family: "Poppins", sans-serif;
+  border: 2px solid;
+  border-image: var(--primary-color) 1;
+  font-size: 0.92rem;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 5px 6px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--primary-color);
+  color: transparent;
+  cursor: pointer;
+}
+
+.categorie_btn:focus {
+  background: var(--primary-color);
+  color: transparent;
+  color: var(--secondary-color);
+  border: none;
+  padding: 6px 10px;
+}
