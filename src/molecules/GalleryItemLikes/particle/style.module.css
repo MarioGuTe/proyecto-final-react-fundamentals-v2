@@ -1,0 +1,17 @@
+.likes_container {
+  width: 100%;
+  position: absolute;
+  top: 0.4em;
+  right: 0.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.likes_container p {
+  z-index: 1000;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: end;
+}
