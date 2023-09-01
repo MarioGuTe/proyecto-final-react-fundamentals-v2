@@ -9,6 +9,7 @@ export default defineConfig({
   },
   preview: {
     port: 4270,
+    strictPort: true, //Set to true to exit if port is already in use, instead of automatically trying the next available port.
   },
   // build options
   build: {
@@ -24,7 +25,6 @@ export default defineConfig({
     chunks: true,
     moduleBundling: true,
     prerenderPaths: ["/"],
-
     modulePreload: true,
     outDir: "build",
   },
