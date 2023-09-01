@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import s from "./particle/style.module.css";
 
 const GalleryItemTags = ({ tagList }) => {
@@ -10,6 +11,10 @@ const GalleryItemTags = ({ tagList }) => {
       ))}
     </div>
   );
+};
+
+GalleryItemTags.propTypes = {
+  tagList: PropTypes.object,
 };
 
 export default GalleryItemTags;

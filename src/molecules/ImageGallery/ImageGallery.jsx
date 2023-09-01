@@ -1,5 +1,6 @@
-import s from "./particle/style.module.css";
+import PropTypes from "prop-types";
 import ImageGalleryItem from "../ImageGalleryItem/ImageGalleryItem";
+import s from "./particle/style.module.css";
 
 const ImageGallery = ({ images }) => (
   <>
@@ -13,5 +14,9 @@ const ImageGallery = ({ images }) => (
     </section>
   </>
 );
+
+ImageGallery.propTypes = {
+  images: PropTypes.array,
+};
 
 export default ImageGallery;

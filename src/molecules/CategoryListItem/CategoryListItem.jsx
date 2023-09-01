@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import s from "./particle/style.module.css";
 
 const CategoryListItem = ({ category, onClickItem }) => {
@@ -24,6 +25,11 @@ const CategoryListItem = ({ category, onClickItem }) => {
         .slice(0, 2)}
     </>
   );
+};
+
+CategoryListItem.propTypes = {
+  onClickItem: PropTypes.func,
+  category: PropTypes.object,
 };
 
 export default CategoryListItem;

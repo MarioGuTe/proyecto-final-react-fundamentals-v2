@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { FcLike } from "react-icons/fc";
 import s from "./particle/style.module.css";
 
@@ -9,5 +10,9 @@ const GalleryItemLikes = ({ likes }) => (
     </div>
   </div>
 );
+
+GalleryItemLikes.propTypes = {
+  likes: PropTypes.object,
+};
 
 export default GalleryItemLikes;

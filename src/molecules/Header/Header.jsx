@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { HeaderSection, HeaderContainer, HeaderTitle } from "./StyledHeader";
 
 const Header = ({ title }) => (
@@ -7,5 +8,9 @@ const Header = ({ title }) => (
     </HeaderContainer>
   </HeaderSection>
 );
+
+Header.propTypes = {
+  title: PropTypes.string,
+};
 
 export default Header;
