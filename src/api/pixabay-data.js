@@ -2,7 +2,7 @@ import axios from "axios";
 import { BASE_URL, API_KEY_PARAM } from "../config";
 
 export class PixabayApi {
-  static async fetchImages() {
+  static async fetchDefaultImages() {
     try {
       const response = await axios.get(
         `${BASE_URL}${API_KEY_PARAM}&image_type=photo&pretty=true`
