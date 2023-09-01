@@ -10,3 +10,9 @@
   color: var(--third-color);
   font-weight: 500;
 }
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
