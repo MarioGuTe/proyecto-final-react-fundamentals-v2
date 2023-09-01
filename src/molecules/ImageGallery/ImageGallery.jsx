@@ -9,7 +9,7 @@ const ImageGallery = ({ images }) => (
       <div className={s.img_gallery_container}>
         {images
           ?.map((image) => <ImageGalleryItem key={image.id} image={image} />)
-          .slice(2, 20)}
+          .slice(0, 18)}
       </div>
     </section>
   </>
